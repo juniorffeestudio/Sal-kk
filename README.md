@@ -1,3 +1,6 @@
+localOrionLib=loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Whitexhub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
 MainTab:AddButton({
 Name = "Ativar Anti Void Protection",
 Callback = function()
